@@ -3,89 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practica</title>
+    <title>Practica de 30 agosto</title>
 </head>
 <body>
 
-    <h1>Tablas HTML</h1>
+    <header>
+        <h1>Tablas HTML</h1>
+    </header>
 
-    <table border="1">
-        <tr>
-            <td>ID</td>
-            <td>CARRERA</td>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>LTI</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>CP</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>LA</td>
-        </tr>
-    </table>
-
-    <hr>
-
-    <table border="1">
-        <tr>
-            <th>ID</th>
-            <th>CARRERA</th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>LTI</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>CP</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>LA</td>
-        </tr>
-    </table>
-
-    <hr>
-
-    <!--Tabla con celdas combinadas-->
-
-    <table border="1">
-        <tr>
-            <th>Horario</th>
-            <th>Lunes</th>
-            <th>Martes</th>
-            <th>Miercoles</th>
-            <th>Jueves</th>
-            <th>Viernes</th>
-        </tr>
-        <tr>
-            <td>7:00 a 8:00 am</td>
-            <td rowspan="2">Programar</td>
-            <td>Programar</td>
-            <td colspan="3">Programar</td>
-        </tr>
-        <tr>
-            <td>8:00 a 8:00 am</td>
-            <td>Fiesta</td>
-            <td>Fiesta</td>
-            <td>Fiesta</td>
-            <td>Fiesta</td>
-        </tr>
-    </table>
-
-    <hr>
-
-    <!--Tabla con etiquetas tbody,thead y tfoot-->
-
-    <table border="1">
-        <thead>
+    <main>
+        <table border="1">
             <tr>
-                <th colspan="6">Mi Horario</th>
+                <td>ID</td>
+                <td>CARRERA</td>
             </tr>
+            <tr>
+                <td>1</td>
+                <td>LTI</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>CP</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>LA</td>
+            </tr>
+        </table>
+    
+        <hr>
+    
+        <table border="1">
+            <tr>
+                <th>ID</th>
+                <th>CARRERA</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>LTI</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>CP</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>LA</td>
+            </tr>
+        </table>
+    
+        <hr>
+    
+        <!--Tabla con celdas combinadas-->
+    
+        <table border="1">
             <tr>
                 <th>Horario</th>
                 <th>Lunes</th>
@@ -94,8 +65,6 @@
                 <th>Jueves</th>
                 <th>Viernes</th>
             </tr>
-        </thead>
-        <tbody>
             <tr>
                 <td>7:00 a 8:00 am</td>
                 <td rowspan="2">Programar</td>
@@ -109,13 +78,51 @@
                 <td>Fiesta</td>
                 <td>Fiesta</td>
             </tr>
-        </tbody>
-        <tfoot>
-            <tr>
-                <td colspan="6">Fecha de elaboracion 30-agosto-2023</td>
-            </tr>
-        </tfoot>
-    </table>
+        </table>
+    
+        <hr>
+    
+        <!--Tabla con etiquetas tbody,thead y tfoot-->
+    
+        <table border="1">
+            <thead>
+                <tr>
+                    <th colspan="6">Mi Horario</th>
+                </tr>
+                <tr>
+                    <th>Horario</th>
+                    <th>Lunes</th>
+                    <th>Martes</th>
+                    <th>Miercoles</th>
+                    <th>Jueves</th>
+                    <th>Viernes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>7:00 a 8:00 am</td>
+                    <td rowspan="2">Programar</td>
+                    <td>Programar</td>
+                    <td colspan="3">Programar</td>
+                </tr>
+                <tr>
+                    <td>8:00 a 8:00 am</td>
+                    <td>Fiesta</td>
+                    <td>Fiesta</td>
+                    <td>Fiesta</td>
+                    <td>Fiesta</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="6">Fecha de elaboracion 30-agosto-2023</td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+
+    <aside></aside>
+    <footer></footer>
 
 </body>
 </html>
